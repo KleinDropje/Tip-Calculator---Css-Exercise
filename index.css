@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(185, 41%, 84%);
+    font-size: 24px;
+  }
+
+
+.Container {
+    background-color: hsl(0, 0%, 100%);
+    width: 1000px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.BillContainer {
+    float: left;
+}
+      
+.Bill {
+    position: relative;
+    color: hsl(186, 14%, 43%);
+    font-size: 16px;
+    border-color: transparent;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-left: 50px;
+    top: 30px;
+}
+
+.BillIcon {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.BillInput {
+    background-color: hsl(189, 41%, 97%);
+    border-color: transparent;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.SelectTip {
+    position: relative;
+    color: hsl(186, 14%, 43%);
+    font-size: 16px;
+    border-color: transparent;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-left: 50px;
+    top: 30px;
+}
+
+.ButtonGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    width: 360px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+    
+button {
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 41%, 97%);
+    font-size: 20px;
+    border: transparent;
+    height: 50px;
+    border-radius: 8px;
+    font-family: 'Space Mono', monospace;
+}
+
+.btnCustom {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border-color: transparent;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.PeopleIcon {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.PeopleInput {
+    background-color: hsl(189, 41%, 97%);
+    border-color: transparent;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+}
+
+.NumberPeople {
+    position: relative;
+    color: hsl(186, 14%, 43%);
+    font-size: 16px;
+    border-color: transparent;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-left: 50px;
+    top: 30px;
+}
+
+.TipContainer {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 16px;
+    width: 500px;
+    height: 425px;
+    overflow: hidden;
+    margin-top: 37.5px;
+    margin-left: 450px;
+    position: absolute;
+}
+
+.TipAmount {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+    top: 45px;
+}
+
+.TipDescription {
+    color: hsl(184, 14%, 56%);
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    margin-left: 50px;
+    margin-top: 10px
+}
+
+.Tip {
+    color: hsl(172, 67%, 45%);
+    display:inline;
+    margin-left: 185px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.Total {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+    top: 45px;
+}
+
+.Reset {
+    background-color: hsl(183, 88%, 19%);
+    color: hsl(172, 67%, 45%);
+    border-radius: 4px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
